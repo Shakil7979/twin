@@ -260,9 +260,11 @@ img{
 	top: 164px;
 	right: 40px;
 	max-width: 480px;
-	width: 100%;
-	background: #fff;
+	width: 100%; 
 	display: none;
+  border-radius: 8px;
+  background: var(--additional-white, #FFF);
+  box-shadow: 0px 0px 32px 8px rgba(0, 0, 0, 0.08);
 }
 
 .chat_header {
@@ -270,7 +272,8 @@ img{
 	padding: 20px 24px;
 	display: flex;
 	justify-content: space-between;
-  align-items: center;
+	align-items: center;
+	border-radius: 8px 8px 0 0;
 }
 
 .chat_header p {
