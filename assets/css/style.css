@@ -250,13 +250,13 @@ img{
 .banner_chat {
 	background: transparent;
 	border: none;
-	position: absolute;
+	position: fixed;
 	top: 725px;
 	right: 48px;
 }
 
 .chat_area {
-	position: absolute;
+	position: fixed;
 	top: 164px;
 	right: 40px;
 	max-width: 480px;
