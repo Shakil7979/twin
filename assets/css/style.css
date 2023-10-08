@@ -251,18 +251,18 @@ img{
 	background: transparent;
 	border: none;
 	position: absolute;
-	top: 18%;
+	top: 725px;
 	right: 48px;
 }
 
 .chat_area {
 	position: absolute;
-	top: 4%;
+	top: 164px;
 	right: 40px;
 	max-width: 480px;
 	width: 100%;
 	background: #fff;
-  display: none;
+	display: none;
 }
 
 .chat_header {

@@ -29,6 +29,12 @@ $(document).ready(function(){
         $('.popup_overlay').hide();
     });
 
+    $(document).on('click','.popup_overlay',function(){  
+        $('.weldone').hide();
+        $(this).hide();
+        $('.dashboard_popup').hide();
+    });
+
 
     // chat box script  
     $(document).on('click','.banner_chat',function(){  
