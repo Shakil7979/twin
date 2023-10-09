@@ -872,15 +872,238 @@ img{
 }
 
    /*********************************/
-  /*********** Chepter CSS **********/
+  /*********** Booking CSS **********/
  /********************************/
 
+ .booking_area {
+	padding: 80px 0 200px 0;
+}
 
+.booking_title h2 {
+	color: var(--grayscale-900, #03070B); 
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 72px;
+	margin-bottom: 16px;
+}
 
+.booking_title p {
+	color: var(--grayscale-500, #7D8083); 
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 36px;
+}
 
+.booking_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 80px;
+}
 
+.booking_date {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
 
+.break_list.booking_list {
+	display: flex; 
+	gap: 40px;
+	flex-wrap: wrap;
+}
+
+/* celender  */
+#calendar{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100% !important;
+	font-family: 'Lato', sans-serif;
+  }
+  #calendar_weekdays div{
+	display:inline-block;
+	vertical-align:top;
+  }
+  #calendar_content, #calendar_weekdays, #calendar_header{
+	position: relative;
+	width: 100% !important;
+	overflow: hidden;
+	float: left;
+	z-index: 10;
+  }
+  #calendar_weekdays div, #calendar_content div{
+	width:40px;
+	height: 40px;
+	overflow: hidden;
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #787878;
+  }
+  #calendar_content{
+	-webkit-border-radius: 0px 0px 12px 12px;
+	-moz-border-radius: 0px 0px 12px 12px; 
+	border-radius: 0px 0px 12px 12px;
+  }
+  #calendar_content div{
+	float: left;
+  }
+  #calendar_content div:hover{
+	background-color: #F8F8F8;
+  }
+  #calendar_content div.blank{
+	/* background-color: #E8E8E8; */
+  }
+  #calendar_header, #calendar_content div.today{
+	zoom: 1;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+  }
+  #calendar_content div.today{
+	color: #FFFFFF;
+  }
+  #calendar_header{
+	width: 100%;
+	height: 37px;
+	text-align: center;
+	background-color: #FF6860;
+	padding: 18px 0;
+	-webkit-border-radius: 12px 12px 0px 0px;
+	-moz-border-radius: 12px 12px 0px 0px; 
+	border-radius: 12px 12px 0px 0px;
+  } 
+  i[class^=icon-chevron]{
+	color: #FFFFFF;
+	float: left;
+	width:15%;
+	border-radius: 50%;
+  }
+
+  .booking_li {
+	display: flex;
+	gap: 24px;
+	align-items: flex-start;
+}
+
+.booking_list.break_list li { 
+	display: initial;
+} 
+
+#calendar_header {
+	display: flex;
+	align-items: center;
+	background: transparent !important;
+	justify-content: space-between;
+}
+
+#calendar_header h1 { 
+	color: var(--grayscale-900, #03070B);
+	font-feature-settings: 'case' on; 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+i[class^="icon-chevron"] {
+	color: #03070B;  
+	font-size: 24px;
+}
  
+#calendar_weekdays div {
+	color: var(--grayscale-500, #7D8083) !important;
+	text-align: center; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 16px;
+}
+
+#calendar_content div {
+	color: var(--grayscale-800, #282A2C);
+	text-align: center; 
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+.booking_celender {
+	border-radius: 8px;
+	border: 1px solid var(--grayscale-50, #F3F6F9);
+	background: var(--additional-white, #FFF);
+	box-shadow: 0px 0px 16px 8px rgba(0, 0, 0, 0.04);
+	padding: 24px 22px 20px 22px;
+	height: 100%;
+	margin-top: 40px;
+}
+
+#calendar_content div.today {
+	color: #FFFFFF;
+	border-radius: 100px;
+	background: var(--primary-blue, #2D3D8A) !important; 
+}
+
+.date_times_box ul li p {
+	border-radius: 4px;
+	border: 0.5px solid var(--grayscale-100, #E8EBEE);
+	background: var(--grayscale-50, #F3F6F9);
+	padding: 12px 22px;
+	color: var(--grayscale-800, #282A2C);
+	text-align: center;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
+	width: 112px;
+}
+
+.date_times_box ul li p.active{
+	background: #2D3D8A;
+	color: #fff;
+	border-radius: 4px; 
+}
+
+.date_times_box {
+	margin-top: 40px;
+}
+
+.date_times_box ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+
+.date_times_box ul li {
+	margin-bottom: 0px !important;
+	flex: 0 0 21%;
+}
+
+.booking_widht {
+	flex: 0 0 27%;
+}
+
+.bookign_text_box{
+	margin-top: 40px;
+}
+
+.bookign_text_box textarea {
+	border: 1.5px solid var(--grayscale-200, #D9DCDF);
+	/* max-width: 660px; */
+	width: 100%;
+	height: 428px;
+	padding: 32px 40px 364px 40px;
+	resize: none;
+}
+
+.booking_widht_big {
+	flex: 0 0 40%;
+}
+
+
+
 
    /*********************************/
   /*********** Chepter CSS **********/
