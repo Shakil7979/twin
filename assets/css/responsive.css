@@ -3,6 +3,12 @@
     .container{
         max-width: 1320px;
     } 
+    .booking_widht {
+        flex: 0 0 22%;
+    }
+    .booking_widht_big {
+        flex: 0 0 48%;
+    }
     .chat_area { 
         max-width: 400px; 
     }
@@ -14,6 +20,14 @@
 @media all and (max-width: 1500px){
     .container{
         max-width: 1140px;
+    }
+    .date_times_box ul li p { 
+        padding: 0px 11px; 
+        font-size: 14px; 
+        width: 82px;
+    }
+    .date_times_box ul { 
+        gap: 5px;
     }
     .booking_title h2 { 
         font-size: 40px; 
@@ -71,6 +85,26 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .booking_widht_big {
+        flex: 0 0 44%;
+    }
+    .booking_date p {
+        font-size: 14px;
+    }
+    .booking_title p {
+        font-size: 14px;
+    }
+    .booking_date { 
+        width: 100%;
+    }
+    .booking_header { 
+        flex-direction: column;
+        gap: 25px;
+    }
+    .booking_title h2 {
+        font-size: 31px;
+        line-height: 40px;
     }
     .dashboard_popup, .weldone { 
         width: 94%; 
@@ -231,8 +265,17 @@
     .testi_info h4 { 
         margin: 3px 0;
     }
+    .booking_area {
+        padding: 80px 0;
+    }
+    .booking_widht {
+        flex: 0 0 100%;
+    }
     .weldone_content h2 { 
         font-size: 35px; 
+    }
+    .booking_widht_big {
+        flex: 0 0 100%;
     }
     .weldone_content p { 
         font-size: 16px; 
@@ -298,6 +341,12 @@
         text-align: center;
         margin-bottom: 10px;
     }
+    .booking_title p { 
+        line-height: 24px;
+    }
+    .booking_date p { 
+        line-height: 24px;
+    }
 }
 
 
@@ -305,6 +354,13 @@
     .test_single {
         padding: 88px 20px 21px 20px;
     } 
+    .booking_title h2 {
+        font-size: 26px; 
+    }
+    .bookign_text_box textarea { 
+        height: 200px;
+        padding: 12px 20px; 
+    }
     .weldone_content h2 {
         font-size: 30px;
         margin-bottom: 0;

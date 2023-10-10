@@ -1103,12 +1103,16 @@ i[class^="icon-chevron"] {
 }
 
 .bookign_text_box textarea {
-	border: 1.5px solid var(--grayscale-200, #D9DCDF);
-	/* max-width: 660px; */
+	border: 1.5px solid var(--grayscale-200, #D9DCDF); 
 	width: 100%;
 	height: 428px;
 	padding: 32px 40px 364px 40px;
 	resize: none;
+	color: var(--grayscale-500, #7D8083);
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400; 
 }
 
 .booking_widht_big {
