@@ -74,6 +74,9 @@
 
 
 @media all and (min-width: 991px){
+    .mobile_menus{
+        display: none !important;
+    }
     .login_btn,
     .menu {
         display: block !important;
@@ -192,6 +195,8 @@
         top: 88px;
         z-index: 99;
         width: 100%;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
     }
     .banner_area {
         background: url(../images/banner/bg.png) no-repeat scroll center center / cover; 
@@ -265,6 +270,9 @@
     .testi_info h4 { 
         margin: 3px 0;
     }
+    .chepter_card { 
+        margin-bottom: 60px; 
+    }
     .booking_area {
         padding: 80px 0;
     }
@@ -307,8 +315,8 @@
     .chepter_col {
         width: 100%;
     }
-    .chepter_list { 
-        margin-bottom: 0;
+    .chepter_list {
+        margin-bottom: 15px;
     }
     .section_title p { 
         max-width: 58%; 
@@ -349,6 +357,9 @@
     }
     .chepter_videeo { 
         margin: 40px auto;
+    }
+    .footer_area { 
+        padding: 60px 0;
     }
 }
 

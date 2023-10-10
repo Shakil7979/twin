@@ -243,8 +243,8 @@ img{
   border: 1px solid #2D3D8A;
 }
 
-.section_padding{
-  padding: 124px 0 128px 0;
+.section_padding {
+	padding: 100px 0 128px 0;
 }
 
 .banner_chat {
@@ -466,7 +466,7 @@ img{
 	border-radius: 8px;
 	border: 1px solid var(--grayscale-100, #E8EBEE);
 	background: var(--grayscale-50, #F3F6F9);
-	margin-top: 66px;
+	margin-top: 66px; 
 }
 
    /*********************************/
@@ -519,6 +519,10 @@ img{
 	align-items: flex-start;
 	gap: 24px;
   margin-bottom: 32px;
+}
+
+.extra_margin{
+	margin-bottom: 0 !important;
 }
 
 .breadkdown_area{
