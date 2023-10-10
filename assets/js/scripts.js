@@ -68,6 +68,13 @@ $(document).ready(function () {
         $('.mobile_menus').slideToggle();
         return false;
     });
+
+
+    // date type click
+    $(document).on('click', '.click_date', function () { 
+        $('.in_date').click();
+    });
+    
 })
 
  
