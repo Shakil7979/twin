@@ -1115,6 +1115,15 @@ i[class^="icon-chevron"] {
 	font-weight: 400; 
 }
 
+.in_date{
+	visibility: hidden;
+	opacity: 0;
+}
+
+.click_date{
+	cursor: pointer;
+}
+
 .booking_widht_big {
 	flex: 0 0 40%;
 }
