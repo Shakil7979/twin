@@ -102,7 +102,7 @@ img{
 }
 
 .footer_logo a,
-.logo a {
+.logo_a {
 	display: flex;
 	align-items: center;
 }
@@ -251,22 +251,22 @@ img{
 	background: transparent;
 	border: none;
 	position: fixed;
-	top: 725px;
+	bottom: 40px;
 	right: 48px;
-  z-index: 999;
+	z-index: 999;
 }
 
 .chat_area {
 	position: fixed;
-	top: 164px;
+	bottom: 30px;
 	right: 40px;
 	max-width: 480px;
-	width: 100%; 
+	width: 100%;
 	display: none;
-  border-radius: 8px;
-  background: var(--additional-white, #FFF);
-  box-shadow: 0px 0px 32px 8px rgba(0, 0, 0, 0.08);
-  z-index: 9999;
+	border-radius: 8px;
+	background: var(--additional-white, #FFF);
+	box-shadow: 0px 0px 32px 8px rgba(0, 0, 0, 0.08);
+	z-index: 9999;
 }
 
 .chat_header {
@@ -303,27 +303,38 @@ img{
 	scrollbar-width: none;
 } 
 
-.left_chat p{
+.left_chat p {
 	border-radius: 8px 8px 8px 0px;
 	background: var(--grayscale-50, #F3F6F9);
 	padding: 8px 16px;
 	max-width: 384px;
 	width: 100%;
 	margin-top: 4px;
+	color: var(--grayscale-900, #03070B); 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
 }
 
 .right_chat { 
-	width: 384px;
+	width: 100%;
+	max-width: 384px;
 	margin: auto 0 0 auto;
 }
 
 .right_chat p {
 	border-radius: 8px;
 	background: rgba(45, 61, 138, 0.20);
-	padding: 8px 16px; 
+	padding: 8px 16px;
 	display: inline-block;
 	text-align: left;
 	margin-top: 4px;
+	color: var(--grayscale-900, #03070B); 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
 }
 
 .right_chat span ,
@@ -706,7 +717,8 @@ img{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-  margin-bottom: 200px;
+	margin-bottom: 200px;
+	flex-wrap: wrap;
 }
 
 .chepter_card_single {
@@ -821,7 +833,8 @@ img{
 	font-style: normal;
 	font-weight: 400;
 	line-height: 36px;
-	width: 485px;
+	max-width: 485px;
+	width: 100%;
 	margin: 0 auto 56px auto;
 }
 
@@ -1102,9 +1115,25 @@ i[class^="icon-chevron"] {
 	flex: 0 0 40%;
 }
 
+.booking_date p {
+	color: var(--grayscale-500, #7D8083);
+	text-align: right; 
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+}
 
 
 
    /*********************************/
-  /*********** Chepter CSS **********/
+  /*********** Reeee CSS **********/
  /********************************/
+
+ .mobile_menus {
+	display: none;
+ }
+
+ .mobile_bars {
+	display: none;
+}

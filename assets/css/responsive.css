@@ -1,0 +1,417 @@
+
+@media all and (max-width: 1800px){
+    .container{
+        max-width: 1320px;
+    } 
+    .chat_area { 
+        max-width: 400px; 
+    }
+    .chat_box { 
+        height: 300px; 
+    }
+}
+
+@media all and (max-width: 1500px){
+    .container{
+        max-width: 1140px;
+    }
+    .booking_title h2 { 
+        font-size: 40px; 
+        line-height: 40px;
+    }
+    .booking_title p { 
+        font-size: 16px; 
+    }
+    .booking_date p { 
+        font-size: 16px; 
+    }
+    .right_chat p,
+    .left_chat p { 
+        font-size: 16px; 
+        line-height: 28px;
+    }
+    .menu ul { 
+        gap: 30px;
+    }
+    .footer_logo a p, .logo a p { 
+        font-size: 14px; 
+        line-height: 21px; 
+    }
+    .footer_logo img, .logo img {
+        width: 91px;
+        height: auto;
+    }
+    .footer_menu ul li a, .menu ul li a { 
+        font-size: 16px; 
+    }
+    .login_btn ul li a { 
+        font-size: 16px; 
+    }
+    .banner h2 { 
+        font-size: 50px; 
+        line-height: 60px;
+    }
+    .dashboard_title h2 { 
+        font-size: 40px; 
+        line-height: 60px;
+        margin-bottom: 5px;
+    }
+}
+
+
+@media all and (min-width: 991px){
+    .login_btn,
+    .menu {
+        display: block !important;
+    }
+}
+
+@media all and (max-width: 991px){
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dashboard_popup, .weldone { 
+        width: 94%; 
+    }
+    .chepter_card_single {
+        flex: 0 0 48%; 
+        margin-bottom: 25px;
+    }
+    .chepter_card_info h5 { 
+        font-size: 16px; 
+        line-height: 21px;
+    }
+    .chepter_card_info ul li p { 
+        font-size: 14px; 
+        line-height: 32px;
+    }
+    .chepter_cont_p p { 
+        font-size: 16px; 
+        line-height: 28px;
+    }
+    .dashboard_title h2 {
+        font-size: 30px;
+        line-height: 49px;
+        margin-bottom: 2px;
+    }
+    .dashboard_title p { 
+        font-size: 16px; 
+    }
+    .dashboard_banner_area {
+        padding-bottom: 0;
+    }
+    .chepter_area  .section_title p { 
+        max-width: 68%; 
+    }
+    .chepter_count span { 
+        padding: 10px 15px; 
+    }
+    .chepter_info h3 { 
+        font-size: 16px; 
+    }
+    .chepter_list .locked { 
+        font-size: 16px; 
+    }
+    .chepter_list .unlocked { 
+        font-size: 16px; 
+    }
+    .mobile_bars {
+        display: block;
+    }
+    .mobile_bars i {
+        font-size: 25px;
+        color: #fff;
+    }
+    .login_btn,
+    .menu {
+        display: none;
+    }
+    .menus ul li a {
+        color: var(--additional-white, #FFF);
+        text-align: center; 
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+    }
+    .login_btns ul li a {
+        color: var(--additional-white, #FFF); 
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        margin-top: 10px;
+    } 
+    .menus {
+        text-align: center;
+    }
+    .login_btns {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .mobile_menus {
+        background: #2D3D8A;
+        padding: 40px 0;
+        position: absolute;
+        top: 88px;
+        z-index: 99;
+        width: 100%;
+    }
+    .banner_area {
+        background: url(../images/banner/bg.png) no-repeat scroll center center / cover; 
+    }
+    .banner h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .banner p { 
+        font-size: 16px; 
+        line-height: 30px;  
+    }
+    .btn_1 { 
+        font-size: 16px; 
+    }
+    .banner {
+        text-align: center;
+        padding: 100px 0 150px 0;
+    }
+    .section_title h2 { 
+        font-size: 35px;  
+        line-height: 54px; 
+    }
+    .section_title p { 
+        font-size: 16px; 
+        line-height: 30px; 
+    }
+    .test_single {
+        padding: 88px 8px 21px 8px;
+    }
+    .testi_info h4 { 
+        font-size: 18px;  
+        line-height: 25px; 
+    }
+    .testi_info p { 
+        font-size: 14px; 
+        line-height: 27px;
+    }
+    .section_padding {
+        padding: 80px 0;
+    }
+    .breack_title h3 { 
+        font-size: 35px; 
+        line-height: 45px; 
+    }
+    .breack_title p { 
+        font-size: 14px; 
+        line-height: 28px;
+    }
+    .break_list li img {
+        width: 22px;
+    }
+    .break_info h4 { 
+        font-size: 16px; 
+        line-height: 23px;
+    }
+    .break_info p { 
+        font-size: 14px; 
+        line-height: 23px;
+    }
+    .footer_left_copy p { 
+        font-size: 14px; 
+        line-height: 25px;
+    }
+    .footer_right_copy ul li a { 
+        font-size: 14px; 
+    }
+}
+
+@media all and (max-width: 767px){
+    .testi_info h4 { 
+        margin: 3px 0;
+    }
+    .weldone_content h2 { 
+        font-size: 35px; 
+    }
+    .weldone_content p { 
+        font-size: 16px; 
+        margin: 0 auto 38px auto;
+    }
+    .dashboard_popup, .weldone { 
+        background: url(../images/popup/Pop-Up.png) no-repeat scroll center center / cover; 
+        padding: 80px 0;
+    }
+    .not_now { 
+        font-size: 16px; 
+    }
+    .quiz h3 { 
+        font-size: 30px; 
+        line-height: 60px;
+    }
+    .quiz p { 
+        font-size: 16px; 
+        line-height: 26px;
+        margin-bottom: 36px;
+    }
+    .dashboard_title p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .chepter_area .section_title p {
+        max-width: 82%;
+    }
+    .chepter_col {
+        width: 100%;
+    }
+    .chepter_list { 
+        margin-bottom: 0;
+    }
+    .section_title p { 
+        max-width: 58%; 
+    }
+    .section_title h2 { 
+        margin-bottom: 0px;
+    }
+    .breack_title {
+        margin-bottom: 35px;
+    }
+    .breadkdown_area {
+        padding-bottom: 60px;
+    }
+    .footer_logo a {
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .footer_menu ul {
+        justify-content: center;
+        gap: 16px;
+    }
+    .footer_menu ul li a{
+        font-size: 14px;
+    }
+    .footer_right_copy ul { 
+        justify-content: center;
+        gap: 40px;
+    }
+    .footer_left_copy {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media all and (max-width: 575px){
+    .test_single {
+        padding: 88px 20px 21px 20px;
+    } 
+    .weldone_content h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+        line-height: 40px;
+    }
+    .weldone_content p {
+        font-size: 14px;
+        margin: 11px auto 28px auto;
+        width: 89%;
+        line-height: 25px;
+    }
+    .close_popup a i { 
+        font-size: 24px; 
+    }
+    .quiz p { 
+        font-size: 14px; 
+        line-height: 26px;
+        margin-bottom: 36px;
+    }
+    .chepter_cont_p p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .chepter_card_single {
+        flex: 0 0 100%; 
+        margin-bottom: 25px;
+    }
+    .right_chat p, .left_chat p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .chat_header p { 
+        font-size: 14px; 
+    }
+    .banner_chat img {
+        width: 40px;
+    }
+    .chat_area {
+        max-width: 95%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .chepter_list .unlocked {
+        font-size: 14px;
+    }
+    .chepter_list .locked {
+        font-size: 14px;
+    }
+    .dashboard_title h2 {
+        font-size: 24px;
+        line-height: 45px; 
+    }
+    .breack_title h3 {
+        font-size: 30px;  
+        margin-bottom: 0;
+    }
+    .section_title p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .section_title h2 {
+        font-size: 30px;
+        line-height: 54px;
+    }
+    .section_title p {
+        max-width: 64%;
+    }
+    .banner p {
+        font-size: 14px;
+        line-height: 26px;
+    } 
+    .footer_copy {
+        padding-top: 40px;
+    }
+    .btn_1 { 
+        width: 208px;
+        height: 50px; 
+    }
+    .banner {
+        text-align: center;
+        padding: 100px 0 100px 0;
+    }
+}
+
+@media all and (max-width: 400px){
+    .banner h2 {
+        font-size: 29px;
+        line-height: 42px;
+    }
+    .weldone_content h2 {
+        font-size: 24px;
+        margin-bottom: 0;
+        line-height: 35px;
+    }
+    .chepter_count span {
+        padding: 3px 10px;
+        font-size: 16px;
+    }
+    .chepter_info { 
+        gap: 10px;
+    }
+    .break_list li { 
+        margin-bottom: 15px;
+    }
+    .footer_area {
+        background: #03070B;
+        padding: 80px 0 40px 0;
+    }
+}
